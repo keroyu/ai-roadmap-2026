@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="'Noto Sans TC','PingFang TC',sans-serif">
+  <!-- 背景 -->
+  <rect width="900" height="560" fill="#FFF9F0"/>
+
+  <!-- 瀏覽器視窗 -->
+  <g>
+    <rect x="24" y="24" width="640" height="512" rx="14" fill="#FFFFFF" stroke="#173F73" stroke-width="2.5"/>
+    <!-- 瀏覽器頂列 -->
+    <path d="M24 38 a14 14 0 0 1 14-14 h612 a14 14 0 0 1 14 14 v34 h-640 z" fill="#EAF2F8"/>
+    <line x1="24" y1="72" x2="664" y2="72" stroke="#173F73" stroke-width="2"/>
+    <circle cx="52" cy="48" r="7" fill="#FF6B5A"/>
+    <circle cx="76" cy="48" r="7" fill="#F2C14E"/>
+    <circle cx="100" cy="48" r="7" fill="#2BB3A3"/>
+    <!-- 網址列 -->
+    <rect x="128" y="34" width="420" height="28" rx="14" fill="#FFFFFF" stroke="#5E86B5" stroke-width="1.5"/>
+    <text x="148" y="53" font-size="14" fill="#173F73" font-family="Menlo, monospace">claude.ai/code</text>
+
+    <!-- 頁面內容 -->
+    <text x="76" y="150" font-size="34" font-weight="bold" fill="#173F73">Claude Code</text>
+    <text x="76" y="182" font-size="16" fill="#5E86B5">會動手做事的 AI，桌面版</text>
+
+    <!-- 下載按鈕：macOS -->
+    <rect x="76" y="220" width="240" height="54" rx="12" fill="#173F73"/>
+    <text x="196" y="253" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">下載 macOS 版</text>
+    <!-- 下載按鈕：Windows -->
+    <rect x="332" y="220" width="240" height="54" rx="12" fill="#FFFFFF" stroke="#173F73" stroke-width="2"/>
+    <text x="452" y="253" text-anchor="middle" font-size="16" font-weight="bold" fill="#173F73">下載 Windows 版</text>
+
+    <!-- 步驟提示 -->
+    <g font-size="14" fill="#173F73">
+      <circle cx="88" cy="330" r="12" fill="#F2C14E"/>
+      <text x="88" y="335" text-anchor="middle" font-weight="bold">1</text>
+      <text x="112" y="335">選你電腦對應的版本下載</text>
+      <circle cx="88" cy="372" r="12" fill="#DFF3EC" stroke="#2BB3A3" stroke-width="2"/>
+      <text x="88" y="377" text-anchor="middle" font-weight="bold">2</text>
+      <text x="112" y="377">打開安裝檔，像裝任何軟體一樣裝完</text>
+      <circle cx="88" cy="414" r="12" fill="#EFEBFB" stroke="#9B8CE0" stroke-width="2"/>
+      <text x="88" y="419" text-anchor="middle" font-weight="bold">3</text>
+      <text x="112" y="419">打開 App，登入 Claude 帳號</text>
+    </g>
+
+    <text x="76" y="496" font-size="12.5" fill="#5E86B5">需要 Claude 付費方案（Pro 以上）</text>
+  </g>
+
+  <!-- 登入視窗（疊在右側） -->
+  <g>
+    <rect x="560" y="120" width="316" height="330" rx="16" fill="#FFFFFF" stroke="#173F73" stroke-width="2.5"/>
+    <rect x="560" y="120" width="316" height="44" rx="16" fill="#EAF2F8"/>
+    <rect x="560" y="148" width="316" height="16" fill="#EAF2F8"/>
+    <line x1="560" y1="164" x2="876" y2="164" stroke="#173F73" stroke-width="2"/>
+    <text x="718" y="148" text-anchor="middle" font-size="14" fill="#5E86B5">登入 Claude</text>
+
+    <!-- 星芒 logo -->
+    <g transform="translate(718,222)">
+      <path d="M0,-30 L7,-8 L30,0 L7,8 L0,30 L-7,8 L-30,0 L-7,-8 Z" fill="#FF6B5A"/>
+    </g>
+
+    <text x="718" y="292" text-anchor="middle" font-size="17" font-weight="bold" fill="#173F73">歡迎回來</text>
+
+    <rect x="596" y="316" width="244" height="46" rx="10" fill="#173F73"/>
+    <text x="718" y="345" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">用瀏覽器登入</text>
+
+    <rect x="596" y="374" width="244" height="46" rx="10" fill="#FFFFFF" stroke="#5E86B5" stroke-width="1.5"/>
+    <text x="718" y="403" text-anchor="middle" font-size="15" fill="#173F73">使用 Google 帳號繼續</text>
+
+    <text x="718" y="438" text-anchor="middle" font-size="12" fill="#5E86B5">登入完成就能開始用（示意圖）</text>
+  </g>
+</svg>

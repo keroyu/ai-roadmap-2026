@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" font-family="Menlo, Consolas, monospace">
+  <!-- 視窗底 -->
+  <rect x="0" y="0" width="900" height="540" rx="14" fill="#1B2130"/>
+  <!-- 標題列 -->
+  <rect x="0" y="0" width="900" height="44" rx="14" fill="#242B3D"/>
+  <rect x="0" y="30" width="900" height="14" fill="#242B3D"/>
+  <circle cx="26" cy="22" r="7" fill="#FF6B5A"/>
+  <circle cx="50" cy="22" r="7" fill="#F2C14E"/>
+  <circle cx="74" cy="22" r="7" fill="#2BB3A3"/>
+  <text x="450" y="27" text-anchor="middle" fill="#8B93A7" font-size="14">終端機 — codex</text>
+
+  <!-- 指令列 -->
+  <text x="36" y="86" font-size="16" fill="#8B93A7">$ <tspan fill="#E8ECF4">codex</tspan></text>
+
+  <!-- Codex logo 區 -->
+  <rect x="36" y="108" width="64" height="64" rx="14" fill="#E8ECF4"/>
+  <text x="68" y="152" text-anchor="middle" font-size="30" font-weight="bold" fill="#1B2130">&gt;_</text>
+  <text x="118" y="140" font-size="34" font-weight="bold" fill="#E8ECF4">Codex</text>
+  <text x="118" y="164" font-size="14" fill="#8B93A7">OpenAI coding agent · v0.48</text>
+
+  <!-- 分隔線 -->
+  <line x1="36" y1="200" x2="864" y2="200" stroke="#39415A" stroke-width="1.5"/>
+
+  <!-- 登入選擇 -->
+  <text x="36" y="240" font-size="16" fill="#E8ECF4">How would you like to sign in?</text>
+
+  <rect x="36" y="262" width="828" height="52" rx="8" fill="#233B4A" stroke="#2BB3A3" stroke-width="2"/>
+  <text x="56" y="294" font-size="16" fill="#2BB3A3">&#10095; 1. Sign in with ChatGPT</text>
+  <text x="840" y="294" text-anchor="end" font-size="13" fill="#8B93A7">Plus / Pro / Team</text>
+
+  <rect x="36" y="324" width="828" height="52" rx="8" fill="#222941"/>
+  <text x="56" y="356" font-size="16" fill="#8B93A7">&#160;&#160;2. Provide your own API key</text>
+
+  <!-- 提示 -->
+  <text x="36" y="416" font-size="14" fill="#8B93A7">選第 1 項，按 Enter，瀏覽器會開啟 ChatGPT 登入頁</text>
+
+  <!-- 狀態列 -->
+  <rect x="0" y="486" width="900" height="54" fill="#161B27"/>
+  <rect x="0" y="480" width="900" height="20" fill="#161B27"/>
+  <text x="36" y="518" font-size="14" fill="#2BB3A3">Sign in with ChatGPT<tspan fill="#8B93A7"> · 帳號需 ChatGPT Plus 以上（示意圖）</tspan></text>
+</svg>
