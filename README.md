@@ -4,7 +4,7 @@ ebook AI Learning Roadmap 2026
 
 2026 新手完全指南，從聊天機器人一路學到 AI 代理人。手機優先的單欄卡片式閱讀版。
 
-- 線上閱讀：`ai-roadmap-2026.html`（`index.html` 會自動轉過去）
+- 線上閱讀：`web.html`（`index.html` 會自動轉過去）
 - PDF 收藏版：頁面上的 PDF 按鈕
 - 免費公開課《為什麼我鼓勵你創業》：頁面結尾的入口
 
