@@ -1,5 +1,7 @@
 # 猴子也能懂的 AI Road Map（網頁版電子書）
 
+ebook AI Learning Roadmap 2026
+
 2026 新手完全指南，從聊天機器人一路學到 AI 代理人。手機優先的單欄卡片式閱讀版。
 
 - 線上閱讀：`ai-roadmap-2026.html`（`index.html` 會自動轉過去）
